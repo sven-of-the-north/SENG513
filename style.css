@@ -1,0 +1,130 @@
+@font-face { 
+	font-family: Gemina2; 
+	src: url('./font/gemina2.ttf');
+} 
+
+html, body {
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+	padding: 0;
+	
+	background-color: #000000;
+	color: white;
+}
+
+h1, .h1 {
+	text-align: center;
+	font-family: Gemina2;
+	font-weight: normal;
+	font-size: 2.5em;
+}
+
+.circle-container {
+	position: relative;
+	width: 24em;
+	height: 24em;
+	padding: 2.8em;
+	border-radius: 50%;
+	margin: 1.75em auto 0;
+}
+
+.circle-container a {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 8em;
+	height: 12em;
+	height: 12em;
+
+}
+
+.circle-container img {
+	display: block;
+	width: 100%;
+}
+
+.circle-container .topLeft {
+	transform: translate(-4em) rotate(50deg) translate(-14em) rotate(-50deg);
+}
+
+.circle-container .middleLeft {
+	transform: translate(-18em);
+}
+
+.circle-container .bottomLeft {
+	transform: translate(-4em) rotate(-50deg) translate(-14em) rotate(50deg);
+}
+
+.circle-container .topRight {
+	transform: translate(-4em) rotate(-50deg) translate(14em) rotate(50deg);
+}
+
+.circle-container .middleRight {
+	transform: translate(10em);
+}
+
+.circle-container .bottomRight {	
+	transform: translate(-4em) rotate(50deg) translate(14em) rotate(-50deg);
+}
+
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+#header {
+	padding:10px;
+}
+
+#body {
+	padding:10px;
+	padding-bottom:30px;
+	height: 600px;
+	
+	font-family: Arial;
+}
+
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+
+   	font-size: 15px;
+	text-align: center;
+	display: block;
+	
+	font-family: Arial;
+}
+
+.parallax {
+	background-image: url('./res/TF2logo_black.jpg');
+
+	min-height: 600px;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul a {
+	display: block;
+	width: 8em;
+	height: 8em;
+}
+
+ul img {
+	display: block;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
